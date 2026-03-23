@@ -15,6 +15,9 @@ function Home() {
             </div>
             <div className={styles.containerItens}>
                 <h2>Atividades</h2>
+
+         <Link to="/Atividade/1">Atividade 1 - Uso de CSS </Link>
+
             </div>
         </div>
     )
