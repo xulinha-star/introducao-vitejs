@@ -1,11 +1,19 @@
 .container {
-  background-color: #eee;
+  background-color: #f3f3f3;
   padding: 20px;
   width: 500px;
   border-radius: 8px;
   font-family: Arial, sans-serif;
 }
 
+h1 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
 
 .botoes {
   display: flex;
@@ -14,19 +22,23 @@
 
 .botao {
   border: none;
-  padding: 10px 15px;
+  padding: 10px 18px;
   color: white;
-  border-radius: 6px;
+  border-radius: 8px;
   cursor: pointer;
   font-size: 14px;
+  transition: 0.2s ease;
 }
 
+/* efeito mais suave que o seu */
 .botao:hover {
-  transform: scale(1.1); 
+  transform: scale(1.05);
+  opacity: 0.9;
 }
 
+/* cores mais próximas da imagem */
 .cadastrar {
-  background-color: green;
+  background-color: #28a745;
 }
 
 .editar {
@@ -34,13 +46,13 @@
 }
 
 .listar {
-  background-color: orange;
+  background-color: #fd7e14;
 }
 
 .excluir {
-  background-color: crimson;
+  background-color: #dc3545;
 }
 
 .cancelar {
-  background-color: gray;
+  background-color: #6c757d;
 }
