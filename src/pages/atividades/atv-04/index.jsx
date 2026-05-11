@@ -7,7 +7,7 @@ import styles from './index.module.css';
 
 
 <div className={styles.container}>
-      <h1 >Atividade 3</h1>
+      <h1 >Atividade 4 - lista de compra</h1>
 </div>
   );
 
